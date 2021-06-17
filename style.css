@@ -32,7 +32,7 @@ a:active{
 }
 
 #banner{
-    height: 800px;
+    height: 100%;
     background-image: url("./images/bg.jpg");
 }
 
@@ -41,20 +41,19 @@ a:active{
 }
 
 .container{
-    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    position: relative;
-    top: 80px;
-    left: 25%;
-    width: 900px;
-    height: 700px;
+    padding: 60px;
+    margin:0 auto;
+    width: 65%;
+    height: auto;
     text-align: center;
 
 }
 
 .mainTitle{
     position: relative;
-    top: 250px;
+    top: 25%;
 }
 
 .title{
@@ -100,9 +99,7 @@ table,th,td {
 
 
 #contact table{
-    margin: 50px;
-    position: relative;
-    left: 20%;
+    margin: 50px auto;
     border: none;
 }
 
@@ -132,10 +129,10 @@ table,th,td {
 
 
 footer{
-    height: 150px;
+    height: 100px;
     background-color: black;
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold; 
     padding: 10px;
     text-align: center;
